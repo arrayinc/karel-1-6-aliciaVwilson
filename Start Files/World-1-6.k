@@ -4,3 +4,6 @@
  * Algorithm test! Write an algorithm that
  * can solve any loop-free maze. 
  */
+
+import "turns";
+
