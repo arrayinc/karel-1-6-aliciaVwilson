@@ -7,3 +7,14 @@
 
 import "turns";
 
+function NavigateMaze(){
+	while(noBeepersPresent()){
+		if(rightIsClear()){
+			turnRight();
+		} else {
+			while(frontIsBlocked()){
+				turnLeft();
+			}
+		move();
+		}
+}
